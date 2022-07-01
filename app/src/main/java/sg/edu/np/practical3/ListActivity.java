@@ -33,7 +33,7 @@ public class ListActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Random random = new Random();
-                        int randomint = random.nextInt((99999-0) + 1) + 0;
+                        int randomint = random.nextInt((99999-0) + 1);
 
                         Bundle number = new Bundle();
                         number.putInt("random", randomint);
